@@ -1,5 +1,7 @@
 # mac-playbook
 
+[![CI](https://github.com/aleksanderbl29/mac-playbook/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/aleksanderbl29/mac-playbook/actions/workflows/ci.yml)
+
 Ansible playbook for my Mac setup 👨‍💻
 
 ## Credits
