@@ -10,6 +10,6 @@
   #     when: ansible_os_family == 'Darwin'
 
   roles:
-  - role: elliotweiser.osx-command-line-tools
-  - role: geerlingguy.mac.homebrew
-    tags: ['homebrew']
+    - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.mac.homebrew
+      tags: ['homebrew']
