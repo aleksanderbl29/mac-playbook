@@ -1,0 +1,15 @@
+---
+- name: Setup mac
+  hosts: all
+  vars_files:
+    - config.yml
+
+  # pre_tasks:
+  #   - name: Install Xcode Command Line Tools
+  #     ansible.builtin.command: xcode-select --install
+  #     when: ansible_os_family == 'Darwin'
+
+  roles:
+  - role: elliotweiser.osx-command-line-tools
+  - role: geerlingguy.homebrew
+    tags: ['homebrew']
